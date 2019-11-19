@@ -1,0 +1,18 @@
+Source code for analyzing different feature selection strategies for anti-cancer drug sensitivity prediction.
+The code is suited for analysis of data from Genomics of Drug Sensitivity in Cancer (GDSC) dataset [1].
+
+Relevant files list:
+> ./Deeper analysis of drugs with good modeling performance/drugs_of_interest_analysis_main.ipynb - closer 
+analysis of chosen subset of compounds
+> ./Created Modules/gdsc_projects_module.py - file containing classes and utilities used in the analysis
+> ./Results Assesment/results_assesment_main.ipynb - assesment of results across all drugs
+> ./Results Assesment/figures_for_paper.ipynb - notebook for generating figures for the article
+> Code used for deploying models with a given feature selection approach are included in separate directories, 
+e.g. ./GDSC - Prediction with genome wide gene expression/Scripts/rf_modeling_without_feat_selection_run_script.py 
+contains code for deploying genome-wide model without data-driven feature selection using random forest
+
+References:
+1. Benes, C., Haber, D.A., Beare, D., Edelman, E.J., Lightfoot, H., Thompson, I.R., Smith, J.A., Soares, J.,
+   Stratton, M.R., Bindal, N., Futreal, P.A., Greninger, P., Forbes, S., Ramaswamy, S., Yang, W., McDermott, U.,
+   Garnett, M.J.: Genomics of Drug Sensitivity in Cancer (GDSC): a resource for therapeutic biomarker discovery
+   in cancer cells. Nucleic Acids Research 41 (D1), 955–961 (2012)
